@@ -1,9 +1,9 @@
 header{
     background-color: rgb(138, 132, 226);
-    height: 40vh;
+    height: 500px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;  
 }
 
 .foto{
@@ -11,7 +11,6 @@ header{
     height: 150px;
     background-color: rgb(83, 67, 67);
     border-radius: 75px;
-    margin-bottom: 10px;
 }
 
 .info-header{
@@ -19,7 +18,7 @@ header{
     flex-direction: column;
     align-items: center;
     position: relative;
-    top: 13%;
+    top: 23%;
 }
 
 .midias{

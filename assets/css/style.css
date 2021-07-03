@@ -1,9 +1,12 @@
 @import url(header.css);
 @import url(container.css);
+@import url(media_querys.css);
+
 @font-face {
     font-family: "Tommy";
     src: url("../font/Tommy_Soft.woff");
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -25,5 +28,5 @@ img{
 }
 
 h2{
-    margin-bottom: 10px;
+    margin-top: 10px;
 }

@@ -1,5 +1,5 @@
 .container{
-    width: 90vw;
+    width: 90%;
     margin: 10px auto 0 auto;
     
 }
@@ -15,10 +15,12 @@
 .flex-interesses{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .flex-interesses div{
     margin-right: 20px;
+    margin-top: 10px;
 }
 
 .code,
