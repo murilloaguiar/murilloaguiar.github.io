@@ -23,6 +23,7 @@ header{
 
 .midias{
     display: flex;
+    align-items: center;
     margin-top: 15px;
     background-color: rgb(236, 131, 131);
     border-radius: 10px;
@@ -30,4 +31,8 @@ header{
 
 .midias a{
     padding: 10px;
+}
+
+.midias img{
+    margin-right: 10px
 }
