@@ -1,0 +1,32 @@
+@import url(header.css);
+@import url(container.css);
+@import url(media_querys.css);
+
+@font-face {
+    font-family: "Tommy";
+    src: url("../font/Tommy_Soft.woff");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Tommy";
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+img{
+    display: block;
+}
+
+h2{
+    margin-top: 10px;
+}

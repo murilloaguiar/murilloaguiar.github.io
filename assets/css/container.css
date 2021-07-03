@@ -1,0 +1,49 @@
+.container{
+    width: 90%;
+    margin: 10px auto 0 auto;
+    
+}
+
+.sobre{
+    padding:10px 0 20px 0;
+}
+
+.interesses{
+    padding: 0px 0 20px 0;
+}
+
+.flex-interesses{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex-interesses div{
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.code,
+.planet,
+.book{
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.code{
+    background-color: rgb(182, 182, 218);
+}
+
+.planet{
+    background-color: rgb(230, 124, 182);
+}
+
+.book{
+    background-color: rgb(135, 238, 190);
+}
+

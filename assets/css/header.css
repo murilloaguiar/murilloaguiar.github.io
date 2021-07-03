@@ -1,0 +1,38 @@
+header{
+    background-color: rgb(138, 132, 226);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.foto{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(83, 67, 67);
+    border-radius: 75px;
+}
+
+.info-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 23%;
+}
+
+.midias{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    background-color: rgb(236, 131, 131);
+    border-radius: 10px;
+}
+
+.midias a{
+    padding: 10px;
+}
+
+.midias img{
+    margin-right: 10px
+}
