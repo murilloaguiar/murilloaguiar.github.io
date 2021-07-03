@@ -9,7 +9,9 @@ header{
 .foto{
     width: 150px;
     height: 150px;
-    background-color: rgb(83, 67, 67);
+}
+
+.perfil{
     border-radius: 75px;
 }
 

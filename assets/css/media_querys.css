@@ -17,18 +17,10 @@
 
 @media (max-height: 668px) {
     header{
-        background-color: rgb(138, 132, 226);
         height: 350px;
-        display: flex;
-        justify-content: center;
-        align-items: center;  
     }
 
     .info-header{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: relative;
         top: 13%;
     }
 }
