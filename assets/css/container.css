@@ -1,7 +1,7 @@
 .container{
     width: 90%;
     margin: 10px auto 0 auto;
-    
+
 }
 
 .sobre{
@@ -9,7 +9,7 @@
 }
 
 .sobre a{
-    color:rgb(138, 132, 226);
+    color:#4483ca;
 }
 
 .interesses{
@@ -37,17 +37,28 @@
     justify-content: center;
     align-items: center;
     border-radius: 15px;
+    background-color: #71c5ea;
 }
 
-.code{
-    background-color: rgb(182, 182, 218);
+.flex-formacao{
+    display: flex;
+    flex-wrap: wrap; 
 }
 
-.planet{
-    background-color: rgb(230, 124, 182);
+.flex-uni{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
-.book{
-    background-color: rgb(135, 238, 190);
+.logo-uni{
+    width: 127px;
+    height: 71px;
+    margin: 0px 15px 10px 0;
 }
 
+.logo-if{
+    width: 133px;
+    height: 111px;
+    margin: 0px 15px 10px 0;
+}
