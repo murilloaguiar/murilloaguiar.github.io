@@ -9,7 +9,7 @@
 }
 
 .sobre a{
-    color:rgb(138, 132, 226);
+    color:#4483ca;
 }
 
 .interesses{
@@ -37,8 +37,10 @@
     justify-content: center;
     align-items: center;
     border-radius: 15px;
+    background-color: #71c5ea;
 }
 
+/*
 .code{
     background-color: rgb(182, 182, 218);
 }
@@ -49,5 +51,5 @@
 
 .book{
     background-color: rgb(135, 238, 190);
-}
+}*/
 
