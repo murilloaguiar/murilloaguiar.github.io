@@ -40,21 +40,26 @@
     background-color: #71c5ea;
 }
 
+.flex-formacao{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex-uni{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
 .logo-uni{
     width: 127px;
     height: 71px;
-    margin: 15px 15px 10px 0;
-
+    margin: 15px 25px 10px 0;
 }
 
 .logo-if{
     width: 133px;
     height: 111px;
-    margin: 15px 15px 10px 0;;
-}
-
-.flex-formacao{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+    margin: 15px 15px 10px 0;
 }
