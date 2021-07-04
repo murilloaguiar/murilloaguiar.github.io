@@ -40,16 +40,21 @@
     background-color: #71c5ea;
 }
 
-/*
-.code{
-    background-color: rgb(182, 182, 218);
+.logo-uni{
+    width: 127px;
+    height: 71px;
+    margin: 15px 15px 10px 0;
+
 }
 
-.planet{
-    background-color: rgb(230, 124, 182);
+.logo-if{
+    width: 133px;
+    height: 111px;
+    margin: 15px 15px 10px 0;;
 }
 
-.book{
-    background-color: rgb(135, 238, 190);
-}*/
-
+.flex-formacao{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
