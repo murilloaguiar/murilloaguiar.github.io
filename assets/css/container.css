@@ -8,7 +8,12 @@
     padding:10px 0 20px 0;
 }
 
-.sobre a{
+/*.sobre a{
+    color:#4483ca;
+}
+*/
+
+.container a{
     color:#4483ca;
 }
 
@@ -48,17 +53,17 @@
 .flex-uni{
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .logo-uni{
     width: 127px;
     height: 71px;
-    margin: 0px 15px 10px 0;
+    margin-right: 15px;
 }
 
 .logo-if{
     width: 133px;
     height: 111px;
-    margin: 0px 15px 10px 0;
+    margin-right: 15px;
 }
