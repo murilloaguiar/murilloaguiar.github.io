@@ -6,16 +6,16 @@ header{
     align-items: center;  
 }
 
-.foto{
+#foto-perfil{
     width: 150px;
     height: 150px;
 }
 
-.perfil{
+#foto-perfil img{
     border-radius: 75px;
 }
 
-.info-header{
+#info-header{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,6 +35,13 @@ header{
     padding: 10px;
 }
 
-.midias img{
-    margin-right: 10px
+
+@media (max-height: 668px) {
+    header{
+        height: 350px;
+    }
+
+    #info-header{
+        top: 13%;
+    }
 }

@@ -1,51 +1,58 @@
+/*----------GERAL----------*/
 .container{
-    width: 90%;
+    width: 80%;
     margin: 10px auto 0 auto;
-
 }
-
-.sobre{
-    padding:10px 0 20px 0;
-}
-
-/*.sobre a{
-    color:#4483ca;
-}
-*/
 
 .container a{
     color:#4483ca;
 }
 
-.interesses{
-    padding: 0px 0 20px 0;
+.espaco-sections{
+    margin-bottom:20px;
 }
 
-.flex-interesses{
+.espaco-sections h2{
+    margin-bottom:8px;
+}
+
+/*------SOBRE--------*/
+#sobre h2{
+    margin-top:30px;
+}
+
+
+/*---------INTERESSES----------*/
+#flex-interesses{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.flex-interesses div{
-    margin-right: 20px;
-    margin-top: 10px;
+#flex-interesses div{
+    margin-right:20px; 
 }
 
-.code,
-.planet,
-.book{
-    width: 120px;
-    height: 120px;
+.icone-interesses{
+    width: 100px;
+    height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 15px;
+    border: 1px solid #71c5ea;
+    font-size: 0.9em;
+}
+
+.icone-interesses:hover{
     background-color: #71c5ea;
 }
 
-.flex-formacao{
+
+
+/*--------FORMAÇÃO--------*/
+#flex-formacao{
     display: flex;
     flex-wrap: wrap; 
 }
@@ -53,17 +60,33 @@
 .flex-uni{
     display: flex;
     align-items: center;
-    margin-top: 20px;
+    margin-right: 20px;
 }
 
 .logo-uni{
-    width: 127px;
-    height: 71px;
+    width: 80px;
+    height: 65px;
     margin-right: 15px;
 }
 
 .logo-if{
-    width: 133px;
-    height: 111px;
+    width: 45px;
+    height: 75px;
     margin-right: 15px;
+}
+
+/*--------CONHECIMENTOS----------*/
+#lista-programacao li{
+    display: flex;
+    align-items: center;
+}
+
+#lista-programacao img{
+    display: inline;
+    margin-left: 5px;
+}
+
+/*-------LIVROS----------*/
+#lista-livros li{
+    margin-top: 5px;
 }
