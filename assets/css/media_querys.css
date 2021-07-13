@@ -1,6 +1,94 @@
+@media (max-width: 356.98px) {
+    .container{
+        width: 90%;
+        margin: 10px auto 0 auto;
+    }
+
+    .icone-interesses{
+        width: 70px;
+        height: 70px;
+    }
+
+    .icone-interesses p{
+        font-size: 0.65em;
+    }
+
+    #flex-interesses div:nth-child(n+4){
+        margin-top:10px; 
+    }
+
+    .logo-uni{
+        display: none;
+    }
+    
+    .logo-if{
+        display: none;
+    }
+
+    p, li{
+        font-size: 14px;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+
+    h3{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 357px) and (max-width: 475.98px) {
+    .container{
+        width: 90%;
+        margin: 10px auto 0 auto;
+    }
+
+    .icone-interesses{
+        width: 85px;
+        height: 85px;
+    }
+
+    .icone-interesses p{
+        font-size: 0.75em;
+    }
+    
+    #flex-interesses div:nth-child(n+4){
+        margin-top:10px; 
+    }
+
+    .logo-uni{
+        display: none;
+    }
+    
+    .logo-if{
+        display: none;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 18px;
+    }
+
+}
+
 
 /*Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
+@media (min-width: 476px) and (max-width: 575.98px) {
+    .container{
+        width: 90%;
+        margin: 10px auto 0 auto;
+    }
+
+    .icone-interesses{
+        width: 85px;
+        height: 85px;
+        font-size: 0.7em;
+    }
+
     .logo-uni{
         display: none;
     }
@@ -11,6 +99,11 @@
 }
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
+    .container{
+        width: 85%;
+        margin: 10px auto 0 auto;
+    }
+
     .logo-uni{
         display: none;
     }
@@ -18,35 +111,36 @@
     .logo-if{
         display: none;
     }
+
 }
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
     .logo-if{
-        width: 55px;
-        height: 75px;
-        margin-right: 55px;
+        margin-right: 50px;
     }
 }
 
 /*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1244px) {
+@media (min-width: 992px) and (max-width: 1364.98px) {
     .logo-if{
-        width: 55px;
-        height: 75px;
-        margin-right: 55px;
+        margin-right: 50px;
     }
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {}
-
-@media (max-height: 668px) {
-    header{
-        height: 350px;
+@media (min-width: 1361.05px) and (max-width: 1607.98px){
+    .container{
+        width: 70%;
+        margin: 10px auto 0 auto;
     }
 
-    .info-header{
-        top: 13%;
+    .logo-if{
+        margin-right: 50px;
     }
 }
+
+@media (min-width: 1361.10px) {
+    
+}
+
