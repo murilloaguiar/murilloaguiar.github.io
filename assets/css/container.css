@@ -11,7 +11,31 @@
 }
 
 
+
 /*------SOBRE--------*/
+.flex-about{
+    display: flex;
+}
+
+.content, .image{
+    border: 1px solid red;
+}
+
+header.title h1{
+    font-size: 2em;
+}
+
+header.title h1::after{
+    content: '';
+    display: block;
+    width: 3.25em;
+    height: 3px;
+    margin: 0.7em 0 1em 0;
+    border-radius: 2px;
+    background-image: linear-gradient(
+        90deg, #7e75d1, #9882d4, #8cc9f0);;
+}
+
 
 
 
