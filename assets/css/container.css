@@ -1,92 +1,28 @@
 /*----------GERAL----------*/
 .container{
-    width: 80%;
-    margin: 10px auto 0 auto;
+    width: 72em;
+    max-width: calc(100% - 4em);
+    margin: 0 auto;
+    border: 1px solid red;
 }
 
-.container a{
-    color:#4483ca;
+.sections{
+    padding: 5em 5em 3em 5em;
 }
 
-.espaco-sections{
-    margin-bottom:20px;
-}
-
-.espaco-sections h2{
-    margin-bottom:8px;
-}
 
 /*------SOBRE--------*/
-#sobre h2{
-    margin-top:30px;
-}
+
 
 
 /*---------INTERESSES----------*/
-#flex-interesses{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-#flex-interesses div{
-    margin-right:20px; 
-}
-
-.icone-interesses{
-    width: 100px;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
-    border: 1px solid #71c5ea;
-    font-size: 0.9em;
-}
-
-.icone-interesses:hover{
-    background-color: #71c5ea;
-}
 
 
 
 /*--------FORMAÇÃO--------*/
-#flex-formacao{
-    display: flex;
-    flex-wrap: wrap; 
-}
 
-.flex-uni{
-    display: flex;
-    align-items: center;
-    margin-right: 20px;
-}
-
-.logo-uni{
-    width: 80px;
-    height: 65px;
-    margin-right: 15px;
-}
-
-.logo-if{
-    width: 45px;
-    height: 75px;
-    margin-right: 15px;
-}
 
 /*--------CONHECIMENTOS----------*/
-#lista-programacao li{
-    display: flex;
-    align-items: center;
-}
 
-#lista-programacao img{
-    display: inline;
-    margin-left: 5px;
-}
 
 /*-------LIVROS----------*/
-#lista-livros li{
-    margin-top: 5px;
-}

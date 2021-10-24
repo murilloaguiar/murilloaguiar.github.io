@@ -12,7 +12,10 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
+
+        <!-- dev icons-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+
 
         <!-- Css -->
         <link rel="stylesheet" href="assets/css/style.css">
@@ -29,132 +32,63 @@
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PMN3XXH"
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->
+        <nav id="nav">
+            <ul>
+                <li><a href="#header">Inicio</a></li>
+                <li><a href="">Sobre</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#">Formação</a></li>
+            </ul>
+        </nav>
         <!--Header-->
-        <header>
-            <div id="info-header">
-            
-                <div id="foto-perfil">
-                    <img src="assets/images/eu_site.jpg" alt="Murillo Aguiar">
-                </div>
-                <h2>Murillo Aguiar</h2>
-                <small>21y</small>
-            
-                <h4>Universidade Estadual de Montes Claros</h4>
-                
-                <h4>Engenharia de Sistemas</h4>
+        <header id="header">
+            <span class="foto-perfil">
+                <img src="assets/images/eu_site.jpg" alt="Murillo Aguiar">
+            </span>
+            <h1>Murillo Aguiar</h1>
 
-                <div class="midias">
-                    <a href="https://www.linkedin.com/in/murillo-oliveira-aguiar-b46875145/" target="_blank">LinkedIn</a>
-                    <img src="assets/images/linkedin.svg" alt="linkedin" width="30px" height="30px">
-                    <a href="https://github.com/murilloaguiar" target="_blank">GitHub</a>
-                    <img src="assets/images/github.svg" alt="github" width="30px" height="30px">
-                </div>
-            </div>
+            <ul>
+                <li>
+                    <a href="" class="button">
+                        <i class="devicon-linkedin-plain"></i> LinkedIn
+                    </a>
+                </li>
+                <li><a href="" class="button"><i class="devicon-github-original"></i> GitHub</a></li>
+            </ul>
+            
+            
         </header>
         <!--/Header-->
 
         <!--Main-->
         <main class="container">
             <!-- Section sobre-->
-            <section class="espaco-sections" id="sobre">
-                <h2>Sobre</h2>
-        
-                <p>Estudante de terceiro período do curso de <a href="https://engenhariadesistemas.com/" target="_blank">Engenharia de Sistemas</a> pela UNIMONTES. Amante de musica, livros e também café. Minha banda favorita é Linkin Park :)</p>
+            <section class="sections" id="sobre">
+                
             </section>
             <!-- /Section sobre-->
 
             <!--Section Interesses-->
             <section class="espaco-sections">
-                <h2>Interesses</h2>
                 
-                <div id="flex-interesses">
-                    <div class="icone-interesses">
-                        <img src="assets/images/cpu.svg" width="50px">
-                        <p>Tecnologia</p>
-                    </div>
-
-                    <div class="icone-interesses">
-                        <img src="assets/images/code.svg" width="50px">
-                        <p>Programação</p>
-                    </div>
-                    
-                    <div class="icone-interesses">
-                        <img src="assets/images/planet.svg" width="50px">
-                        <p>Astronomia</p>
-                    </div>
-                    
-                    <div class="icone-interesses">
-                        <img src="assets/images/book.svg" width="50px">
-                        <p>Livros</p>
-                    </div>
-
-                </div>
             </section>
             <!--/Section Interesses-->
 
             <!--Section Formação-->
             <section class="espaco-sections">
-                <h2>Formação</h2>
-                <div id="flex-formacao"> 
-                    
-                    <div class="flex-uni">
-                        <div class="logo-uni">
-                            <img src="assets/images/unimontes.svg">
-                        </div>
-
-                        <div>
-                            <h3>Universidade Estadual de Montes Claros</h3>
-                            <p>Bacharelado em Engenharia de Sistemas</p>
-                            <small>(2019-2024)</small>
-                        </div>
-                    </div>
-                    
-                    <div class="flex-uni">
-                        <div class="logo-if">
-                            <img src="assets/images/ifnmg.svg">
-                        </div>
-                    
-                        <div>
-                            <h3>Instituto Federal do Norte de Minas Gerais - Campus Pirapora</h3>
-                            <p>Técnico em Informática integrado ao Ensino Médio</p>
-                            <small>(2015-2017)</small>
-                        </div>
-                    </div>
-                    
-                </div>
+                
             </section>
             <!--/Section Formação-->
 
             <!--Conhecimentos-->
             <section class="espaco-sections">
-                <h2>Conhecimentos</h2>
-                <h3>Programação</h3>
-                <p>Comecei a programar em 2015 aos 15 anos, mas durante esse tempo sempre foi por questões didáticas sem muito foco. Atualmente me dedico mais e sempre procuro aprimorar minhas habilidades.</p>
-                <br>
-                <p>Tenho conhecimentos em: </p>
-                <ul id="lista-programacao">
-                    <li>* HTML <img src="assets/images/html5.svg" alt="">;</li>
-                    <li>* CSS <img src="assets/images/css3.svg" alt="">;</li>
-                    <li>* Javascript <img src="assets/images/javascript.svg" width="30px">;</li>
-                    <li>* PHP <img src="assets/images/php.svg" width="35px">;</li>
-                    <li>* C <img src="assets/images/c.svg" alt="">.</li>
-                </ul>
+                
             </section>
             <!--/Conhecimentos-->
 
             <!--Livros-->
             <section class="espaco-sections">
-                <h2>Livros</h2>
-                <h3>Alguns livros que já li e recomendo</h3>
-                <ul id="lista-livros">
-                    <li>* Sapiens, uma breve história da humanidade;</li>
-                    <li>* Justiça, o que é fazer a coisa certa;</li>
-                    <li>* Uma breve história do tempo;</li>
-                    <li>* Sobre a brevidade da vida;</li>
-                    <li>* Rápido e devagar, duas formas de pensar;</li>
-                    <li>* A revolução dos bichos;</li>
-                    <li>* Superinteligência.</li>
-                </ul>
+                
             </section>
             <!--/Livros-->
 
@@ -163,9 +97,10 @@
 
         <!--Footer-->
         <footer class="container">
-            <small></br>Site ainda em construção :)</small>
-            <h5>Site feito apenas com HTML e CSS. Esse e outros projetos você pode encontrar no meu <a href="https://github.com/murilloaguiar" target="_blank">GitHub.</a></h5>
+            
         </footer>
         <!--/Footer-->
+
+        <script src="assets/js/script.js"></script>
     </body>
 </html>

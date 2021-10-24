@@ -1,47 +1,94 @@
-header{
-    background-color: #4483ca;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
+#nav{
+    position: fixed;
+    text-align: center;
+    background-color: rgba(0,0,0, 0.4);
+    width: 100vw;
+    padding: 0.2em;
 }
 
-#foto-perfil{
-    width: 150px;
-    height: 150px;
+#nav ul{
+    padding: 0.8em;
 }
 
-#foto-perfil img{
-    border-radius: 75px;
+#nav ul li{
+    display: inline-block;
+    margin: 0 0.1em;
+    border-radius: 4px;
 }
 
-#info-header{
+#nav ul li a.active{
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 4px;
+}
+
+#nav ul li:hover{
+    background-color: rgba(255,255,255, 0.5);
+    
+}
+
+#nav ul li a{
+    display: inline-block;
+    color: #ffffff; 
+    padding: 0.3em 1em;
+}
+
+
+
+
+#header{
+    background-image: url(../images/capa.jpg);
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
-    top: 23%;
+    justify-content: center;
+    height: 100vh; 
 }
 
-.midias{
-    display: flex;
-    align-items: center;
-    margin-top: 15px;
-    background-color: #d47b5a;
-    border-radius: 10px;
-}
-
-.midias a{
-    padding: 10px;
+#header h1{
+    margin-bottom: 0.5em;
+    color: #ffffff;
 }
 
 
-@media (max-height: 668px) {
-    header{
-        height: 350px;
-    }
+#header .foto-perfil{
+    display: inline-block;
+    border: 2px solid #ffffff;
+    padding: 0.65em;
+    border-radius: 100%;
+    margin-bottom: 1em;
+}
 
-    #info-header{
-        top: 13%;
-    }
+.foto-perfil img{
+    display: block;
+    border-radius: 100%;
+    width: 13em;
+}
+
+ 
+
+.button{
+    width: 8em;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.2em;
+    border: 1px solid #ffffff;
+    padding: 0.7em;
+    display: inline-block;
+    color: #ffffff;
+    margin-bottom: 0.5em;
+}
+
+.button img{
+    width: 2em;
+}
+
+
+#header ul li a:hover{
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 6px;
+    border: 1px solid #ffffff;
 }
