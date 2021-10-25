@@ -158,5 +158,9 @@ header.title h2::after{
     header.title:nth-child(n+1){
         margin-top: 2em;
     }
+
+    .icone-interesses p{
+        font-size: 0.85em;
+    }
     
 }
