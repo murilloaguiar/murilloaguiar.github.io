@@ -1,15 +1,48 @@
-const link_nav = document.querySelectorAll("#nav ul li a")
+const animationClass = 'active'
 
-link_nav.forEach(element =>{
+const menuItems = document.querySelectorAll('#nav a[href^="#"]')
+//console.log(menuItems)
+ 
+menuItems.forEach(elements =>{
+    elements.addEventListener('click', scrollToIdOnClick)
+})
 
-    element.addEventListener('click', () =>{
+function getScrollTopByHref(element){
+    let id = element.getAttribute('href')
+    return document.querySelector(id)
+    
+}
 
-        link_nav.forEach(element_verification =>{
-            if (element_verification.classList.contains('active')) {
-                element_verification.classList.remove('active')
-            }
-        })
-            
-        element.classList.add("active");
+function scrollToIdOnClick(event){
+    console.log(event) 
+    event.preventDefault()
+    let to = getScrollTopByHref(event.target).offsetTop
+    scrollToPosition(to)
+}
+
+function scrollToPosition(to) {
+    window.scroll({
+        top: to-30,
+        behavior: 'smooth'
     })
+}
+
+
+function activeClassMenu() {
+    const windowTop = window.pageYOffset + ((window.innerHeight*3)/12)
+    menuItems.forEach(elements =>{
+        const sectionsTop = getScrollTopByHref(elements).offsetTop
+        const sectionHeight = getScrollTopByHref(elements).offsetHeight
+        if (windowTop > sectionsTop && (windowTop - sectionsTop <= sectionHeight)) {
+            elements.classList.add(animationClass)
+        }else{
+            elements.classList.remove(animationClass)
+        }
+    })    
+    
+}
+
+activeClassMenu()
+window.addEventListener('scroll', ()=>{
+    activeClassMenu()
 })

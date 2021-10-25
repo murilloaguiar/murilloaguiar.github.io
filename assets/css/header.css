@@ -34,8 +34,8 @@
 }
 
 
-#header{
-    background: url(../images/capa.jpg);
+header#header{
+    background: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)),url(../images/capa.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -43,25 +43,14 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    animation: header 3s;
 }
 
-@keyframes headere {
-    from{
-        background: rgb(0,0,0), rgba(0,0,0, 0.4);
-        background-size: cover;
-        background-position: center;
-    }to{
-        background: url(../images/capa.jpg);
-        background-size: cover;
-        background-position: center;
-    }
-}
 
 #header h1{
     margin-bottom: 0.5em;
     color: #ffffff;
 }
+
 
 
 #header .foto-perfil{
@@ -78,7 +67,7 @@
     width: 13em;
     animation: perfil 3s;
 }
-@keyframes perfil {
+@keyframes perfils {
     from{
         opacity: 0;
     }to{
