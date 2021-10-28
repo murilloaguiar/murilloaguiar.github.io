@@ -35,12 +35,12 @@ header.title:nth-child(n+2){
 }
 
 .content p a{
-    color:#F9B126;
+    color:#3d6be9;
 }
 
 
 header.title h1{
-    font-size: 1.7em;
+    font-size: 1.8em;
 }
 
 header.title h1::after,
@@ -62,13 +62,10 @@ header.title h2::after{
     
 }
 
-#flex-interesses div{
-    margin-right:1em; 
-}
-
 .icone-interesses{
-    width: 100px;
-    height: 100px;
+    margin-right:1em;
+    width: 7em;
+    height: 7em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -76,6 +73,11 @@ header.title h2::after{
     border-radius: 15px;
     border: 1px solid #DAE1EF;
     font-size: 0.9em;
+}
+
+.icone-interesses img{
+    border-radius: 15px;
+    width: 60%;
 }
 
 .icone-interesses:hover{
@@ -126,10 +128,11 @@ header.title h2::after{
 
 .card h4{
     position: absolute;
+    color: #DAE1EF;
     top: 0.6em;
     right: 0.6em;
     padding: 0.3em;
-    background-color: #7e75d1;
+    background-color: #3d6be9;
     border-radius: 7px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
 }
