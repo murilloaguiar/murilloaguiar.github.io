@@ -99,10 +99,13 @@ header.title h2::after{
    
 }
 
-.projects{
+.flex-projects{
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
+}
+
+.projects:nth-child(n+2){
+    margin-left: 1em;
 }
 
 .card{
@@ -138,6 +141,9 @@ header.title h2::after{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
 }
 
+footer{
+    height: 3em;
+}
 
 @media (max-width: 575.98px) { 
     .container{
@@ -200,8 +206,9 @@ header.title h2::after{
         justify-content: space-evenly;
     }
 
-    .projects article:nth-child(n+1){
+    .projects:nth-child(n+2){
         margin-top: 1em;
+        margin-left: 0;
     }
     
 }
