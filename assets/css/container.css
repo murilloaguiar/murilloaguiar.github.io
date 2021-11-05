@@ -116,14 +116,15 @@ header.title h2::after{
 
 .card img{
     height: 100%;
+    width: 100%;
     border-radius: 8px;
     object-fit: cover;
     object-position: center;
 }
 
 .card:hover{
-    width: 21em;
-    height: 13em;
+    width: 20.5em;
+    height: 12.5em;
 }
 
 .card h4{
@@ -199,7 +200,7 @@ header.title h2::after{
         justify-content: space-evenly;
     }
 
-    .projects article:nth-child(n+2){
+    .projects article:nth-child(n+1){
         margin-top: 1em;
     }
     
